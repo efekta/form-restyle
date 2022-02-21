@@ -54,7 +54,7 @@
 .about .about__wrapper .about__ul {
     margin-top: 32px;
     list-style-type: disc;
-    font-family: "Tele2 DisplaySerif Web SHORT", sans-serif;
+    /*font-family: "Tele2 DisplaySerif Web SHORT", sans-serif;*/
 }
 .about .about__wrapper .about__ul .about__li {
     color: #1f2229;
@@ -67,6 +67,9 @@
     margin-top: 0;
 }
 
+.reg-page {
+    font-family: "Tele2 TextSans Web SHORT", sans-serif;
+}
 
 .reg {
     float: right;
@@ -126,7 +129,7 @@
     min-height: 34px;
     border: 0;
     border-bottom: 2px solid #8f9399;
-    font-family: "Tele2 TextSans Web SHORT", sans-serif;
+    /*font-family: "Tele2 TextSans Web SHORT", sans-serif;*/
     font-weight: 400;
     font-size: 12px;
     padding: 20px 0;
@@ -172,7 +175,7 @@
     font-size: 14px;
     line-height: 17px;
     color: #1f2229;
-    font-family: "Tele2 DisplaySerif Web SHORT", sans-serif;
+    /*font-family: "Tele2 DisplaySerif Web SHORT", sans-serif;*/
 }
 .checkbox__group .checkbox__label:before {
     content: "";
@@ -200,7 +203,7 @@
 
 .btn {
     cursor: pointer;
-    font-family: "Tele2 TextSans Web SHORT", sans-serif;
+    /*font-family: "Tele2 TextSans Web SHORT", sans-serif;*/
     white-space: nowrap;
     padding: 10px 33px 12px;
     font-size: 14px;
