@@ -1,1 +1,1 @@
-[Акт](https://efekta.github.io/form-restyle/index.html)
+[Форма](https://efekta.github.io/form-restyle/index.html)
