@@ -116,6 +116,7 @@
     font-weight: 400;
     line-height: 20px;
     color: #8F9399;
+    font-family: "Tele2 DisplaySerif Web SHORT", sans-serif;
 }
 .input {
     width: 191px;
@@ -168,6 +169,7 @@
     font-size: 14px;
     line-height: 17px;
     color: #1f2229;
+    font-family: "Tele2 DisplaySerif Web SHORT", sans-serif;
 }
 .checkbox__group .checkbox__label:before {
     content: "";
