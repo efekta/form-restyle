@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="reg-page">
+        <div class="about">
+            <div class="about__wrapper">
+                <h1 class="about__title">Tele2. Бизнес CRM</h1>
+                <p class="about__desc">Все то, что нужно вашему бизнесу каждый день: аналитика, продажи, маркетинг,
+                    коммуникации.</p>
+                <ul class="about__ul">
+                    <li class="about__li">Все виды коммуникаций прямо из CRM</li>
+                    <li class="about__li">Быстрая техническая поддержка прямо в чате</li>
+                    <li class="about__li">Более 10 сервисов в 1 системе</li>
+                    <li class="about__li">Агрегация лидов в CRM по любым рекламным каналам</li>
+                    <li class="about__li">Финансовая аналитика, маркетинговая аналитика, аналитика продаж</li>
+                    <li class="about__li">Динамический коллтрекинг, сервис сквозной аналитики, мультиканальная атрибуция<br>
+                        с настраиваемой моделью
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="reg">
+            <div class="reg__wrapper">
+                <div class="reg__form">
+                    <input type="text" class="reg__input input" name="email" placeholder="Email">
+                    <input type="password" class="reg__input input" name="password" placeholder="Пароль">
+                    <input type="hidden" name="session_id">
+                    <input type="hidden" name="session_token">
+                    <div class="reg__checkbox__group checkbox__group">
+                        <input class="reg__checkbox checkbox" type="checkbox" name="reg_remember" id="reg_remember">
+                        <label class="reg__label checkbox__label" for="reg_remember">Запомнить меня?</label>
+                    </div>
+                    <button class="reg__button btn btn_black" id="action_button">Войти</button>
+                    <button class="reg__button btn btn_white" id="demo_button">Войти без регистрации</button>
+                </div>
+
+                <p class="reg__desc">
+                    Если вы забыли пароль, вы можете его
+                    <a class="reg__link link" href="/account/forgot-password">восстановить.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
