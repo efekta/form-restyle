@@ -15,6 +15,7 @@
 .link {
     color: #5998E1;
     cursor: pointer;
+    font-family: "Tele2 DisplaySerif Web SHORT", sans-serif;
 }
 .link:visited {
     color: #5998E1;
@@ -48,10 +49,12 @@
     font-size: 16px;
     line-height: 17px;
     color: #1f2229;
+    font-family: "Tele2 DisplaySerif Web SHORT", sans-serif;
 }
 .about .about__wrapper .about__ul {
     margin-top: 32px;
     list-style-type: disc;
+    font-family: "Tele2 DisplaySerif Web SHORT", sans-serif;
 }
 .about .about__wrapper .about__ul .about__li {
     font-weight: 400;
@@ -200,7 +203,7 @@
     font-family: "Tele2 TextSans Web SHORT", sans-serif;
     white-space: nowrap;
     padding: 10px 33px 12px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 22px;
     border: 2px solid transparent;
@@ -220,12 +223,7 @@
 }
 
 .btn_white {
-    padding: 10px 33px 12px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22px;
     border: 2px solid #1f2229;
-    border-radius: 24px;
     background-color: transparent;
     color: #1f2229;
 }
