@@ -57,6 +57,7 @@
     font-family: "Tele2 DisplaySerif Web SHORT", sans-serif;
 }
 .about .about__wrapper .about__ul .about__li {
+    color: #1f2229;
     font-weight: 400;
     font-size: 16px;
     line-height: 17px;
