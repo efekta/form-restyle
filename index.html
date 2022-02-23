@@ -30,14 +30,24 @@
         <div class="reg">
             <div class="reg__wrapper">
                 <div class="reg__form">
-                    <input type="text" class="reg__input input" name="email" placeholder="Email">
-                    <input type="password" class="reg__input input" name="password" placeholder="Пароль">
+                    <div class="reg__item reg__item--bottom">
+                        <input id="reg__email" type="text" class="reg__input input" name="email" placeholder=" "/>
+                        <label for="reg__email" class="reg__label reg__label--top">Email</label>
+                    </div>
+                    <div class="reg__item reg__item--bottom">
+                        <span toggle="#password-field" class="btn-pass btn-pass--show toggle-password"></span>
+                        <input class="reg__input input" type="password" name="password" id="pass_log_id" placeholder=" "/>
+                        <label for="pass_log_id" class="reg__label reg__label--top">Пароль</label>
+                    </div>
                     <input type="hidden" name="session_id">
                     <input type="hidden" name="session_token">
-                    <div class="reg__checkbox__group checkbox__group">
-                        <input class="reg__checkbox checkbox" type="checkbox" name="reg_remember" id="reg_remember">
-                        <label class="reg__label checkbox__label" for="reg_remember">Запомнить меня?</label>
+                    <div class="reg__item">
+                        <div class="reg__checkbox__group checkbox__group">
+                            <input class="reg__checkbox checkbox" type="checkbox" name="reg_remember" id="reg_remember">
+                            <label class="checkbox__label" for="reg_remember">Запомнить меня?</label>
+                        </div>
                     </div>
+
                     <button class="reg__button btn btn_black" id="action_button">Войти</button>
                     <button class="reg__button btn btn_white" id="demo_button">Войти без регистрации</button>
                 </div>
@@ -49,6 +59,7 @@
             </div>
         </div>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
