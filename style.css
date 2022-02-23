@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Tele2 DisplaySerif Web SHORT";
-    src: url("../fonts/Tele2DisplaySerif-Bold-short__W.eot") format("embedded-opentype"), url("../fonts/Tele2DisplaySerif-Bold-short__W.woff") format("woff2"), url("../fonts/Tele2DisplaySerif-Bold-short__W.woff") format("woff"), url("../fonts/Tele2DisplaySerif-Bold-short__W.ttf") format("truetype"), url("../fonts/Tele2DisplaySerif-Bold-short__W.svg") format("svg");
+    src: url("fonts/Tele2DisplaySerif-Bold-short__W.eot") format("embedded-opentype"), url("fonts/Tele2DisplaySerif-Bold-short__W.woff") format("woff2"), url("fonts/Tele2DisplaySerif-Bold-short__W.woff") format("woff"), url("fonts/Tele2DisplaySerif-Bold-short__W.ttf") format("truetype"), url("fonts/Tele2DisplaySerif-Bold-short__W.svg") format("svg");
 }
 @font-face {
     font-family: "Tele2 TextSans Web SHORT";
-    src: url("../fonts/tele2_textsans-regular.eot") format("embedded-opentype"), url("../fonts/tele2_textsans-regular.woff") format("woff2"), url("../fonts/tele2_textsans-regular.woff") format("woff"), url("../fonts/tele2_textsans-regular.ttf") format("truetype"), url("../fonts/tele2_textsans-regular.svg") format("svg");
+    src: url("fonts/tele2_textsans-regular.eot") format("embedded-opentype"), url("fonts/tele2_textsans-regular.woff") format("woff2"), url("fonts/tele2_textsans-regular.woff") format("woff"), url("fonts/tele2_textsans-regular.ttf") format("truetype"), url("fonts/tele2_textsans-regular.svg") format("svg");
 }
 * {
     box-sizing: border-box;
